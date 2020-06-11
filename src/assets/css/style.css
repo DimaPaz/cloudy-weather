@@ -142,8 +142,14 @@ body{
     display: block;
     margin-left: 4em;
 }
-.fig1 {
+.figure2 {
     margin: 1.5em auto;
+}
+.figure3 {
+  margin: 1.5em auto;
+}
+.figure {
+  margin: 1.5em auto;
 }
 .main-grid-right-grid1{
 	margin:1em 0 0 ;
@@ -156,6 +162,7 @@ body{
 
     display: block;
 }
+
 .main-grid-right-grid1-l p{
 	font-size:2em;
 	color:#fff;
@@ -230,50 +237,50 @@ position:relative;
 .figure span{
 	background:url(../images/img-sp.png) no-repeat 1px -306px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure1 span{
 	background:url(../images/img-sp.png) no-repeat 5px -370px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure2 span{
 	background:url(../images/img-sp.png) no-repeat 6px -425px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure3 span{
 	background:url(../images/img-sp.png) no-repeat -132px 17px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure4 span{
 	background:url(../images/img-sp.png) no-repeat -130px -55px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure5 span{
 	background:url(../images/img-sp.png) no-repeat -130px -126px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure6 span{
 	background:url(../images/img-sp.png) no-repeat -130px -202px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 .figure7 span{
 	background:url(../images/img-sp.png) no-repeat -130px -283px;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 85px;
 }
 /*--//flexisel--*/
 .main-bottom{
@@ -384,6 +391,15 @@ sup.degree {
 	.fig1 span {
 		margin-left: 3em;
 	}
+  .figure span {
+    margin-left: 3em;
+  }
+  .figure2 span {
+    margin-left: 3em;
+  }
+  .figure3 span {
+    margin-left: 3em;
+  }
 	.main-grid-right-grid1-l {
 
 	}
@@ -431,6 +447,15 @@ sup.degree {
 	.fig1 span {
 		margin-left: 2em;
 	}
+  .figure span {
+    margin-left: 2em;
+  }
+  .figure2 span {
+    margin-left: 2em;
+  }
+  .figure3 span {
+    margin-left: 2em;
+  }
 	.figure span {
 		background: url(../images/img-sp.png) no-repeat 10px -306px;
 	}
@@ -460,6 +485,18 @@ sup.degree {
 	.fig span {
 		margin-left: 3em;
 	}
+  .fig1 span {
+    margin-left: 3em;
+  }
+  .figure span {
+    margin-left: 3em;
+  }
+  .figure2 span {
+    margin-left: 3em;
+  }
+  .figure3 span {
+    margin-left: 3em;
+  }
 	.main-grid-right {
 		width: 46%;
 	}
@@ -483,6 +520,19 @@ sup.degree {
 	.fig span {
 		margin-left: 2em;
 	}
+
+  .fig1 span {
+    margin-left: 2em;
+  }
+  .figure span {
+    margin-left: 2em;
+  }
+  .figure2 span {
+    margin-left: 2em;
+  }
+  .figure3 span {
+    margin-left: 2em;
+  }
 	.days ul li {
 		padding: .2em 0em;
 	}
@@ -513,6 +563,15 @@ sup.degree {
 	.fig1 span {
 		margin-left: 7em;
 	}
+  .figure span {
+    margin-left: 7em;
+  }
+  .figure2 span {
+    margin-left: 7em;
+  }
+  .figure3 span {
+    margin-left: 7em;
+  }
 	.main-grid-right-grid1 {
 		margin: 0;
 	}
@@ -541,6 +600,16 @@ sup.degree {
 	.fig1 span {
 		margin-left: 6em;
 	}
+  .figure span {
+    margin-left: 6em;
+  }
+  .figure2 span {
+    margin-left: 6em;
+  }
+  .figure3 span {
+    margin-left: 6em;
+  }
+
 	.main-grid-right-grid1-l {
 
 	}
@@ -559,6 +628,15 @@ sup.degree {
 	.fig1 span {
 		margin-left: 4em;
 	}
+  .figure2 {
+    margin-left: 4em;
+  }
+  .figure3 {
+    margin-left: 4em;
+  }
+  .figure {
+    margin-left: 4em;
+  }
 	.main-grid-right-grid1-l {
 
 	}
