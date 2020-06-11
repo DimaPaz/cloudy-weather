@@ -1,0 +1,145 @@
+<div class="main">
+  <h1>Cloudy weather Widget</h1>
+  <div class="main-grids">
+    <div class="main-grid-left">
+      <div class="main-grid-left-grid">
+        <div class="main-grid-left-gridl">
+          <h2>Kyiv</h2>
+        </div>
+        <div class="main-grid-left-gridr">
+          <p>{{degree}}<sup class="degree">o</sup></p>
+        </div>
+        <div class="clear"> </div>
+        <div class="{{figure}}">
+          <span></span>
+        </div>
+        <div class="main-grid-left-grid-left">
+          <h3>feelslike :<span></span>{{feelslike}}</h3>
+        </div>
+        <div class="main-grid-left-grid-right">
+          <h3>humanity :<span></span>{{humanity}}</h3>
+        </div>
+        <div class="clear"> </div>
+      </div>
+      <div class="days">
+        <ul>
+          <button (click)="ChangeMon()"><li><a href="#">Mon</a></li></button>
+          <button (click)="ChangeTue()"><li><a href="#">Tue</a></li></button>
+          <button (click)="ChangeWed()"><li><a href="#">Wed</a></li></button>
+          <button (click)="ChangeThu()"><li><a href="#">Thu</a></li></button>
+          <button (click)="ChangeFri()"><li><a href="#">Fri</a></li></button>
+          <button (click)="ChangeSat()"><li><a href="#">Sat</a></li></button>
+          <button (click)="ChangeSun()"><li><a href="#">Sun</a></li></button>
+        </ul>
+      </div>
+
+    </div>
+    <div class="main-grid-right">
+      <div class="main-grid-right-grid">
+        <div class="main-grid-left-gridl">
+          <h3>{{day}}</h3>
+        </div>
+        <div class="main-grid-left-gridr">
+          <p>{{degree}}<sup class="degree">o</sup></p>
+        </div>
+        <div class="clear"> </div>
+        <div class="{{figure}}">
+          <span></span>
+        </div>
+        <div class="main-grid-left-grid-left">
+          <h3>feelslike:<span></span> {{feelslike}}</h3>
+        </div>
+        <div class="main-grid-left-grid-right">
+          <h3>wind :<span></span>{{wind}}</h3>
+        </div>
+        <div class="clear"> </div>
+      </div>
+      <div class="main-grid-right-grid1">
+        <div class="main-grid-right-grid1-l">
+          <p>{{degree}}<sup class="degree">o</sup></p>
+        </div>
+        <div class="main-grid-right-grid1-r">
+          <h3>wind :<span></span> {{wind}}</h3>
+        </div>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div class="clear"> </div>
+    <div class="main-bottom">
+      <div class="sliderfig">
+        <ul id="flexiselDemo1">
+          <li>
+            <div class="figure">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure1">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure2">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure3">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure4">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure5">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure6">
+              <span></span>
+            </div>
+          </li>
+          <li>
+            <div class="figure7">
+              <span></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <script type="text/javascript">
+        $(window).load(function() {
+          $("#flexiselDemo1").flexisel({
+            visibleItems: 8,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+              portrait: {
+                changePoint:480,
+                visibleItems: 4
+              },
+              landscape: {
+                changePoint:640,
+                visibleItems:5
+              },
+              tablet: {
+                changePoint:768,
+                visibleItems: 6
+              }
+            }
+          });
+
+        });
+      </script>
+      <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+    </div>
+  </div>
+
+</div>
+
